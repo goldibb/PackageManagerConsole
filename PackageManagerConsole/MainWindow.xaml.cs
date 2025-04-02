@@ -36,20 +36,26 @@ public partial class MainWindow : Window
             p.StartInfo.RedirectStandardOutput = true;
             p.StartInfo.RedirectStandardInput = false;
             p.Start();
-            string strOutput = "Command: " +p.StandardOutput.ReadToEnd();
-            string strError = "Error: " + p.StandardError.ReadToEnd();
+            string strOutput = p.StandardOutput.ReadToEnd();
+            string strError = p.StandardError.ReadToEnd();
             p.WaitForExit();
+            
             if (p.HasExited)
-            {
-                if (strError == "")
-                {
-                    OutputTextBox.Text += strOutput;
-                }
-                else
-                {
-                    OutputTextBox.Text += strError;
-                    OutputTextBox.Foreground = new SolidColorBrush(Colors.Red);
-                }
+            { 
+                    Paragraph para = new Paragraph();
+                    if (strError.Length > 0)
+                    {
+                        para.Inlines.Add(new Run($"Error: {strError}" + Environment.NewLine) 
+                        { 
+                            Foreground = Brushes.Red 
+                        });
+                    }
+                    else
+                    {
+                        para.Inlines.Add(new Run(strOutput + Environment.NewLine));
+                    }
+                    OutputTextBox.Document.Blocks.Add(para);
+                    OutputTextBox.ScrollToEnd();
             }
             
         }

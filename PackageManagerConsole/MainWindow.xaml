@@ -18,18 +18,19 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="OutputTextBox" HorizontalAlignment="Left"  TextWrapping="Wrap" Width="757" Grid.Column = "0" Grid.ColumnSpan="3" Grid.RowSpan="3" BorderBrush="Black" FontSize="16" Margin="18,10,0,10"
+        <RichTextBox x:Name="OutputTextBox" HorizontalAlignment="Left" Width="757" Grid.Column = "0" Grid.ColumnSpan="3" Grid.RowSpan="3" BorderBrush="Black" FontSize="16" Margin="18,10,0,10"
                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
                  ScrollViewer.VerticalScrollBarVisibility="Auto"
                  ScrollViewer.CanContentScroll="True"
                  IsReadOnly="True"
             >
-            <TextBox.Resources>
+            <RichTextBox.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="10"/>
                 </Style>
-            </TextBox.Resources>
-        </TextBox>
+            </RichTextBox.Resources>
+        </RichTextBox>
+        
         <TextBox x:Name="InputTextBox" HorizontalAlignment="Left"  TextWrapping="WrapWithOverflow" VerticalAlignment="Center" Width="764" Grid.Row ="3" Height="40" BorderBrush="Black" FontSize="16" Grid.ColumnSpan="3" Margin="18,0,0,0"
                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
                  ScrollViewer.VerticalScrollBarVisibility="Auto"
