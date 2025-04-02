@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\grzmo\\RiderProjects\\PackageManagerConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5A97D5-2550-4105-BB89-1525019B9446}|PackageManagerConsole\\PackageManagerConsole.csproj|c:\\users\\grzmo\\riderprojects\\packagemanagerconsole\\packagemanagerconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED5A97D5-2550-4105-BB89-1525019B9446}|PackageManagerConsole\\PackageManagerConsole.csproj|solutionrelative:packagemanagerconsole\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5A97D5-2550-4105-BB89-1525019B9446}|PackageManagerConsole\\PackageManagerConsole.csproj|c:\\users\\grzmo\\riderprojects\\packagemanagerconsole\\packagemanagerconsole\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED5A97D5-2550-4105-BB89-1525019B9446}|PackageManagerConsole\\PackageManagerConsole.csproj|solutionrelative:packagemanagerconsole\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\grzmo\\RiderProjects\\PackageManagerConsole\\PackageManagerConsole\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PackageManagerConsole\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\grzmo\\RiderProjects\\PackageManagerConsole\\PackageManagerConsole\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PackageManagerConsole\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA1wDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:35:29.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\grzmo\\RiderProjects\\PackageManagerConsole\\PackageManagerConsole\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PackageManagerConsole\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\grzmo\\RiderProjects\\PackageManagerConsole\\PackageManagerConsole\\MainWindow.xaml",
+              "RelativeToolTip": "PackageManagerConsole\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T17:25:44.339Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
